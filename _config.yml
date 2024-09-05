@@ -5,7 +5,7 @@ description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada
 
 # Version
 
-version: 0.3.0
+version: 0.3.1
 
 # Tag settings 
 
@@ -35,7 +35,7 @@ baseurl: ''
 
 # These can be '' to hide the GitHub or Gitlab nav buttons
 
-github: 'agentex86/agentex86.github.io'
+github: 'felipenlunkes/agentex86'
 gitlab: ''
 
 # Set this to your UA-# value, or '' to disable the block completely
