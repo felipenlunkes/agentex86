@@ -1,0 +1,28 @@
+<div class="sidebar well" align="center">
+  <img src="/images/banner.png"/>
+</div>
+<div class="sidebar well" align="justify">
+{{ site.description }}
+</div>
+
+<div class="sidebar well">
+    <h1>Posts recentes</h1>
+    <ul>
+        {% for post in site.posts limit:5 %}
+          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% if site.search_enabled %}
+<div class="sidebar well">
+  <h1>Procure no Agente x86</h1>
+  {% include search-lunr.html %}
+</div>
+{% endif %}
+
+{% if site.links_enabled %}
+<div class="sidebar well">
+{% include links-list.html %}
+</div>
+{% endif %}

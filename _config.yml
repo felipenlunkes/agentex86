@@ -1,0 +1,66 @@
+name: Agente x86
+title: Agente x86
+authors: Autores do Agente x86
+description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada de Assembly x86 e Java.
+
+# Version
+
+version: 0.2.4
+
+# Tag settings 
+
+collections:
+  tags:
+    output: true
+    permalink: tags/:path/
+
+# Layout configs 
+
+excerpt_separator: <!--quebra-->
+excerpt_enabled: false
+excerpt_size: 50
+links_enabled: false
+search_enabled: false
+
+# url is currently only used only for the RSS feed in feed.xml
+
+url: https://lunx.me
+
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+
+baseurl: ''
+
+# These can be '' to hide the GitHub or Gitlab nav buttons
+
+github: 'agentex86/agentex86.github.io'
+gitlab: ''
+
+# Set this to your UA-# value, or '' to disable the block completely
+
+gaaccount: ''
+
+# The 'comments' setting enables comments. You'll need to select either
+# disqus or isso below to choose a comment system. Individual posts can
+# override 'comments' to disable on a post-by-post basis.
+
+comments: true
+
+# Set this to your public isso URL to enable comments via isso. Set to '' to disable isso.
+
+isso: ''
+
+# Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
+
+disqus: ''
+
+permalink: /:year/:month/:title
+paginate: 10
+
+highlighter: rouge
+markdown: GFM
+plugins: ['jekyll-paginate', 'jekyll-tagories']
+
+exclude: ['README.md', 'LICENSE', "AUTHORS", "CREDITS"]
