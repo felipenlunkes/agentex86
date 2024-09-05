@@ -1,11 +1,11 @@
 name: Agente x86
 title: Agente x86
-authors: Autores do Agente x86
+authors: Felipe Lunkes
 description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada de Assembly x86 e Java.
 
 # Version
 
-version: 0.2.5
+version: 0.2.6
 
 # Tag settings 
 
