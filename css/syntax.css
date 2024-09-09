@@ -53,7 +53,7 @@
 .highlight .se { color: #666666; font-weight: bold; background-color: #fff0f0 } /* Literal.String.Escape */
 .highlight .sh { background-color: #fff0f0 } /* Literal.String.Heredoc */
 .highlight .si { background-color: #eeeeee } /* Literal.String.Interpol */
-.highlight .sx { color: #DD2200; background-color: #fff0f0 } /* Literal.String.Other */
+.highlight .sx { color: #035c0f; background-color: #2b2525 } /* Literal.String.Other */
 .highlight .sr { color: #000000; background-color: #fff0ff } /* Literal.String.Regex */
 .highlight .s1 { background-color: #fff0f0 } /* Literal.String.Single */
 .highlight .ss { color: #AA6600 } /* Literal.String.Symbol */
