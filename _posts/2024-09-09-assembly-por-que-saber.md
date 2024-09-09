@@ -159,6 +159,28 @@ Além disso, embora o compilador quase sempre utilize a melhor otimização para
 
 Tudo isso pode levar a uma diminuição, por parte do desenvolvedor, da compreensão de como um código final é executado pelo processador, de como o processador, endereçamento de memória e entrada e saída funcionam ou de como ele pode atuar para melhorar a performance de seu código, de um aplicativo ou de um serviço, bem como podem levar à ideia de que a grande quantidade de memória disponível hoje significa que um código não precisa ser otimizado o máximo possível. Muito se fala sobre a criatividade dos desenvolvedores para desenvolver soluções em hardwares extremamente limitados e todo os esforço e otimização envolvidos no processo, principalmente em consoles de videogame e jogos antigos para computadores com menos de 1 MB de RAM. O uso de linguagens de alto nível, que se apoiam sempre no Assembly por baixo dos panos, pode levar a um distanciamento e desconhecimento do hardware por parte do desenvolvedor.
 
+Agora, um exercício mental: você precisa escrever um código simples, para Linux, que exiba uma mensagem no console e termine a execução do programa. Sem o uso de bibliotecas, como a libc, que abstrai a lógica necessária para isso, e utilizando Assembly, você conseguiria escrever o código? A maioria das operações realizadas por um aplicativo, que eixgem a interação com o usuário, com o sistema operacional ou hardware são executadas via `chamadas de sistema`. Nas chamadas de sistema, o desenvolvedor precisa especificar, dentro de uma lista com vários recursos expostos ao usuário, o número da função desejada, bem como informar os seus parâmetros. Você pode exibir informações na tela, iniciar um outro utilitário, matar algum processo, tudo via chamada de sistema, cuja interface é feita em Assembly, fornecendo o número da função e os parâmetros nos registradores. Além disso, você precisa solicitar a interrupção de software para pular para o código que manipula chamadas de sistema no kernel, em Assembly x86 utilizando as instruções `int numero_da_interrupção` ou `syscall`, caso esteja em uma arquitetura x86_64 (o sistema operacional também deve suportar a chamada via instrução syscall). Agora, como ficaria o código:
+
+```assembly
+section .data
+    hello db 'Hello, World!', 10  ;; String terminada no caractere de nova linha (10)
+
+section .text
+    global _start  ;; Ponto de entrada da imagem final que será gerada
+
+_start:
+    
+    mov eax, 4     ;; sys_write (função para output, número 4)
+    mov ebx, 1     ;; 1 indica a saída padrão (stdout)
+    mov ecx, hello ;; Endereço da string a ser impressa
+    mov edx, 13    ;; Comprimento da string (13 caracteres)
+    int 0x80       ;; Faz a chamada de sistema (via interrupção de software)
+
+    mov eax, 1     ;; sys_exit (função 1) é responsável por finalizar o processo em execução
+    xor ebx, ebx   ;; Código de saída (erro)
+    int 0x80       ;; Faz a chamada de sistema (via interrupção de software)
+```
+
 ### No quê conhecer Assembly me ajudou, mesmo não trabalhando com a linguagem?
 
 Além de conhecer a linguagem, consigo elencar uma série de situações onde conhecer Assembly (no meu caso, Assembly x86) me auxiliou na minha vida profissional e pessoal:
