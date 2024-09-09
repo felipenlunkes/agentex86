@@ -123,7 +123,7 @@ Em sistemas embarcados, normalmente desenvolvidos para executar tarefas determin
 
 Sistemas de tempo real (*Real-time systems*) exigem uma baixíssima latência entre uma ação e uma resposta. Neste contexto, o emprego da linguagem Assembly pode ser uma alternativa.
 
-### Assembly na *Java Virtual Machine*
+### Assembly na *Java Virtual Machine* (JVM)
 
 A *Java Virtual Machine*, ou JVM, nada mais é que a implementação de uma arquitetura de processador, com suas próprias instruções e, desta forma, de uma linguagem Assembly. Embora não implemente uma arquitetura física, podemos escrever código em Assembly para a JVM, que é então montado como um `bytecode Java`, a linguagem binária da arquitetura. Todo código Java é compilado para bytecode Java, a linguagem nativa da JVM, cujas instruções são então traduzidas para o sistema operacional hosdepeiro. 
 
