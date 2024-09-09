@@ -1571,11 +1571,11 @@ pre {
     font-size: 13px;
     line-height: 1.42857143;
     color: #f7f7f7;
+    background-color: #2b2525;
+    border: 1px solid #059618;
+    border-radius: 4px;
     white-space: pre;
     overflow-x: auto;
-    background-color: #2b2525;
-    border: 1px solid #ccc;
-    border-radius: 4px
 }
 
 pre code {
