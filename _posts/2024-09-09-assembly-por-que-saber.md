@@ -116,11 +116,11 @@ Este projeto de sistema oepracional se tornou o Hexagonix, um sistema operaciona
 
 <div align="center">
 
-![Hexagonix-1](https://github.com/hexagonix/Doc/blob/main/Img/Hexagonix2.png)
+<img src="https://github.com/hexagonix/Doc/blob/main/Img/Hexagonix2.png" width="500" height="400">
 
 Figura 3: Inicialização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
 
-![Hexagonix-2](https://github.com/hexagonix/Doc/blob/main/Img/Hexagonix3.png)
+<img src="https://github.com/hexagonix/Doc/blob/main/Img/Hexagonix3.png" width="500" height="400">
 
 Figura 4: Utilização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
 
