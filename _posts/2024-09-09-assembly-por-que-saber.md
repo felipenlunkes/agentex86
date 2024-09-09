@@ -1,5 +1,5 @@
 ---
-title: "Assembly? Por que todo programador deveria conhecer?"
+title: "Assembly: por que todo programador deveria conhecer?"
 date: 2024-09-09
 author: Felipe Lunkes (Lunx)
 tags: ["Assembly", "Dev", "OSDev", "Software"]
