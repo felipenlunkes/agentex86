@@ -51,7 +51,7 @@ Na história, diversos sistemas operacionais foram parcialmente ou totalmente im
 
 <div align="center">
 
-<img src="https://en.wikipedia.org/wiki/UNIX_System_V#/media/File:SVR1-PDP11.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/SVR1-PDP11.png">
 
 Figura 2: UNIX System V para PDP-11 sendo executado no simulador SIMH. Fonte: Missileboi, 2022.
 
@@ -61,27 +61,63 @@ Figura 2: UNIX System V para PDP-11 sendo executado no simulador SIMH. Fonte: Mi
 
 <div align="center">
 
-<img src="https://en.wikipedia.org/wiki/86-DOS#/media/File:86-DOS_running_assembler_and_HEX2BIN_(screenshot).png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/40/86-DOS_running_assembler_and_HEX2BIN_%28screenshot%29.png">
 
 Figura 3: 86-DOS. Fonte: Retron, 2016.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Ms-dosdir.png">
+
+Figura 4: MS-DOS. Fonte: [Przemub](https://commons.wikimedia.org/wiki/User:Przemub), 2023.
 
 </div>
 
 * **MenuetOS**: agora um exemplo de sistema operacional moderno escrito em Assembly x86 para a arquitetura **x86** e **x86_64**. O [MenuetOS](https://www.menuetos.net/) é totalmente escrito em Assembly x86 (incluindo kernel, drivers de dispositivo, utilitários e aplicativos). Com boot em menos de 3 segundos, o MenuetOS impressiona pela sua velocidade de inicialização e abertura de utilitários e aplicativos. Ele inclui uma série de emuladores, além de ports e de jogos populares, como Doom (1993). Além de tudo isso, todo o sistema cabe em uma imgagem de disquete (1.44 MB), possuindo uma IDE, interface gráfica, suporte a USB e webcams, multitarefa preemptiva e até mesmo um navegador de internet, mostrando o potencial e a utilidade da linguagem Assembly ainda em 2024;
 
+<div align="center">
+
+<img src="https://www.menuetos.net/09814.png">
+
+Figura 5: MenuetOS. Fonte: [menuetOS.net](https://www.menuetos.net), 2024.
+
+</div>
+
 * **KolibriOS**: o [KolibriOS](https://kolibrios.org/en/) é um fork do MenuetOS com desenvolvimento independente desde 2004, possuindo uma série de características semelhantes, dada a origem comum, e uma série de outros recursos, como suporte a sistemas de arquivos ext2, ext3 e ext4, utilizados por distribuições Linux;
 
 Tudo bem, mostrei acima alguns sistemas operacionais históricos e projetos de sistemas que não são utilizados amplamente. Mas temos Assembly em sistemas operacionais de produção mais recentes e em uso atualmente, veja só:
 
+<div align="center">
+
+<img src="https://kolibrios.org/i/slaid/slaid1.png">
+
+Figura 6: KolibriOS. Fonte: [KolibriOS.org](kolibrios.org), 2024.
+
+</div>
+
 * **Linux**: existem arquivos com código Assembly, responsáveis principalmente pela inicialização do kernel em cada uma das arquiteturas. Enquanto a esmagadora maioria do código esteja em C e seja portável entre as várias arquiteturas suportadas, existe código em Assembly específico para cada arquitetura. Como exemplos, temos os arquivos [header.S](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/x86/boot/header.S?h=v6.11-rc7), em Assembly x86, responsável pela inicialização do kernel na arquitetura x86, [entry.S](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/arm64/kernel/entry.S?h=v6.11-rc7), responsável pela manipulação de exceções em baixo nível para a arquitetura ARM, e assim sucessivamente. Você pode acessar o diretório [arch](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch?h=v6.11-rc7) do repositório do kernel e observar os arquivos com extensão **.S**. Estes arquivos utilizados como exemplo estão disponíveis na versão 6.11-rc7 do kernel. Lembrando que a kernel utiliza o GNU as como assembler (montador), que utiliza como padrão a sintaxe AT&T;
 
+<div align="center">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Ubuntu_23.04_Lunar_Lobster_English.png">
+
+Figura 7: Ubuntu Linux 23.04. Fonte: Canonical Ltd, 2023.
+
+</div>
+
 * **FreeBSD**: o FreeBSD também tem uma série de arquivos em Assembly responsáveis pela inicialização do kernel e interação com o hardware. Como exemplo, o arquivo [bioscall.S](https://github.com/freebsd/freebsd-src/blob/main/sys/i386/i386/bioscall.S), responsável pela chamada de funções do (*Basic Input/Output System*) na arquitetura x86. Para ARM, temos o arquivo [exception.S](https://github.com/freebsd/freebsd-src/blob/main/sys/arm64/arm64/exception.S) que, para a arquitetura ARM, é responsável pelo gerenciamento de exceções. Como no Linux, existem arquivos específicos com código Assembly para cada arquitetura;
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/felipenlunkes/freebsd-config/main/img/screenshot.png">
+
+Figura 8: FreeBSD 13.1. Fonte: Autor, 2023.
+
+</div>
 
 * **Windows**: apesar de apresentar código fechado, o Windows também apresenta uma série de arquivos em Assembly, principalmente na Camada de Abstração de Hardware (*Hardware Abstraction Layer* - HAL). Este componente é usado como a parte não portável do kernel, sendo específico para cada arquitetura e, muitas vezes, específico para processadores e componentes específicos dentro de uma mesma arquitetura, enquanto o restante dos componentes do kernel é portável, escrito em linguagens de alto nível como C ou C++;
 
 ### Sistemas embarcados
 
-Em sistemas embarcados, normalmente desenvolvidos para executar tarefas determinadas, podemos ter uma série de limitações: **processamento**, **memória de execução** (RAM), **armazenamento**, entre outras. Em todos os casos, a linguagem pode fornecer binários de menor tamanho, mais otimizados e rápidos.
+Em sistemas embarcados, normalmente desenvolvidos para executar tarefas determinadas, podemos ter uma série de limitações: **processamento**, **memória de execução** (RAM), **armazenamento**, entre outras. Em todos os casos, a linguagem pode fornecer binários de menor tamanho, mais otimizados e rápidos. Um exemplo de sistema embarcado seria dispositivos Arduino;
 
 ### Sistemas de tempo real
 
@@ -97,11 +133,11 @@ Para desenvolver um código Assembly para JVM, precisamos de um montador que sup
 
 ![Assembly-JVM-1](/images/posts/2024-09-09-assembly-por-que-saber_image1.png)
 
-Figura 4: código Assembly para JVM. Fonte: autor, 2023.
+Figura 9: código Assembly para JVM. Fonte: autor, 2023.
 
 ![Assembly-JVM-2](/images/posts/2024-09-09-assembly-por-que-saber_image2.png)
 
-Figura 5: código Assembly para JVM. Fonte: autor, 2023.
+Figura 10: código Assembly para JVM. Fonte: autor, 2023.
 
 </div>
 
@@ -156,11 +192,11 @@ Este projeto de sistema oepracional se tornou o Hexagonix, um sistema operaciona
 
 ![Hexagonix-1](/images/posts/2024-09-09-assembly-por-que-saber_image3.png)
 
-Figura 6: Inicialização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
+Figura 11: Inicialização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
 
 ![Hexagonix-2](/images/posts/2024-09-09-assembly-por-que-saber_image4.png)
 
-Figura 7: Utilização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
+Figura 12: Utilização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
 
 </div>
 
