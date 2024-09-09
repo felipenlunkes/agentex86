@@ -4,12 +4,12 @@ date: 2024-09-09
 author: Felipe Lunkes (Lunx)
 tags: ["Assembly", "Dev", "OSDev", "Software"]
 revised: Felipe Lunkes (Lunx)
-update: 2024-09-09
+update: 2024-09-09 01:54:00
 ---
 
 <div align="justify">
 
-Há quem pense que, em pleno 2024, a linguagem `Assembly x86` caiu em desuso. Quem pensa isso está profundamente enganado. Mas para começar, você conhece essa linguagem?
+Há quem pense que, em pleno 2024, a linguagem **Assembly** caiu em desuso. Quem pensa isso está profundamente enganado. Mas para começar, você conhece essa linguagem?
 
 `Assembly` é um conjunto de linguagens de programação de **baixo nível**, o que quer dizer que estamos escrevendo o código mais próximo possível do código de máquina. Diferentes de linguagens de alto nível, como C, C++, Java, Rust, Python, etc, que possuem uma série de abstrações e permitem que o código seja escrito em uma "linguagem" mais próxima do natural, em Assembly construímos algoritmos utilizando diretamente intruções do processador.
 
