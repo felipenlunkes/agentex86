@@ -4,7 +4,7 @@ date: 2024-09-09
 author: Felipe Lunkes (Lunx)
 tags: ["Assembly", "Dev", "OSDev", "Software"]
 revised: Felipe Lunkes (Lunx)
-update: 2024-09-09 01:54:00
+update: 2024-09-09 02:06:00
 ---
 
 <div align="justify">
@@ -136,9 +136,9 @@ Figura 4: Inicialização do Hexagonix em máquina virtual (qemu). Fonte: autor,
 
 Figura 5: Utilização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
 
-Além disso, desenvolvi vários códigos para a disciplina de Organização de Computadores I da Universidade Federal de Minas Gerais, utilizando a linguagem Assembly para a arquitetura MIPS. Dentre eles, desenvolvi dois códigos, sendo um iterativo e um recursivo, que podem ser encontrados [aqui](https://github.com/felipenlunkes/MIPS-asm). Os dois códigos podem ser executados utilizando o *MIPS Assembler and Runtime Simulator* (MARS), disponível [aqui](https://courses.missouristate.edu/KenVollmar/MARS/).
-
 </div>
+
+Além disso, desenvolvi vários códigos para a disciplina de Organização de Computadores I da Universidade Federal de Minas Gerais, utilizando a linguagem Assembly para a arquitetura MIPS. Dentre eles, desenvolvi dois códigos, sendo um iterativo e um recursivo, que podem ser encontrados [aqui](https://github.com/felipenlunkes/MIPS-asm). Os dois códigos podem ser executados utilizando o *MIPS Assembler and Runtime Simulator* (MARS), disponível [aqui](https://courses.missouristate.edu/KenVollmar/MARS/).
 
 ## Fim!
 
