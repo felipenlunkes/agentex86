@@ -23,7 +23,7 @@ Quando falamos em Assembly, falamos em um **conjunto de diversas linguagens**, c
 
 Além das instruções específicas para cada arquitetura, cada assembler (ou montador), programa que faz a conversão, ou montagem, do código Assembly para linguagem de máquina, pode apresentar uma sintaxe diferente. No munto x86, temos duas sintaxes bastante utilizadas: a sintaxe `Intel` e a sintaxe `AT&T`. A sintaxe AT&T foi criada e utilizada na AT&T no processo de criação do montador para a arquitetura x86 para o UNIX. Como foi utilizada no UNIX, ela pode ser encontrada em seus descendentes, como os BSD (FreeBSD, NetBSD e OpenBSD) e Solaris (incluindo illumos e OpenSolaris), bem como outras variações do software criado pelo Bell Labs. Outros softwares que não utilizam código da AT&T, mas que se baseiam no modelo do UNIX, como o Linux e o MINIX, também utilizam a sintaxe AT&T, utilizando, geralmente, o GNU as como montador. Já a sintaxe Intel é a sintaxe padrão de diversos outros montadores, como o Microsoft MASM, o NASM e o *flat assembler* (fasm), além de poder ser utilizada, com o uso de uma diretiva, no GNU as, cujo padrão é a sintaxe AT&T.
 
-Abaixo, um exemplo de código em linguagem Assembly para a arquitetura x86, utilizando a sintaxe Intel (*flat assembler* - fasm):
+Abaixo, um exemplo de código em linguagem Assembly para a arquitetura x86, utilizando a sintaxe Intel (*flat assembler* - fasm). Note os mnemônicos utilizados, como `mov`, `or`, `and` e `ret`, que designam operações lógicas ou aritméticas que devem ser realizadas pelo processador:
 
 <div align="center">
 
