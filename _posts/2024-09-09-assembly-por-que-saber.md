@@ -183,6 +183,8 @@ _start:
 
 Isso seria equivalente às funções printf() e exit() em C, que utilizam implementações que realizam o que foi exibido assim e estão disponíveis na biblioteca padrão C (libc).
 
+Você pode obter uma lista das principais chamadas de sistema suportadas pelo Linux [aqui](https://man7.org/linux/man-pages/man2/syscalls.2.html).
+
 ### No quê conhecer Assembly me ajudou, mesmo não trabalhando com a linguagem?
 
 Além de conhecer a linguagem, consigo elencar uma série de situações onde conhecer Assembly (no meu caso, Assembly x86) me auxiliou na minha vida profissional e pessoal:
