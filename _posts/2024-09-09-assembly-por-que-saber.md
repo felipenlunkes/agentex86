@@ -99,7 +99,7 @@ Figura 6: KolibriOS. Fonte: [KolibriOS.org](kolibrios.org), 2024.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Ubuntu_23.04_Lunar_Lobster_English.png">
 
-Figura 7: Ubuntu 23.04. Fonte: Canonical Ltd, 2023.
+Figura 7: Ubuntu 23.04. Fonte: Canonical Ltd., 2023.
 
 </div>
 
