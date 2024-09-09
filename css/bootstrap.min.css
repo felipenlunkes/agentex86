@@ -1574,7 +1574,7 @@ pre {
     background-color: #2b2525;
     border: 1px solid #059618;
     border-radius: 4px;
-    white-space: pre;
+    white-space: pre-wrap;
     overflow-x: auto;
 }
 
