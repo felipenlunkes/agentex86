@@ -21,6 +21,16 @@ Embora apresentem uma curva de aprendizado maior, pelo uso dos `mnemônicos`, c�
 
 Quando falamos em Assembly, falamos em um **conjunto de diversas linguagens**, chamadas também de **linguagens de montagem**. Isso porque cada arquitetura de processador apresenta características distintas. Sendo assim, cada arquitetura também apresenta uma linguagem de montagem (Assembly) única, com mnemônicos próprios e regras próprias. Sendo assim, temos `Assembly x86`, para processadores da arquitetura `x86` (arquitetura estreada com o Intel 8086, em 1978, e utilizada até os dias atuais como base para a arquitetura `x86_64` - que introduz extensões para 64 bits - utilizada em todos os processadores Intel e AMD), `Assembly ARM` para processadores da arquitetura `ARM` e `Assembly MIPS` para processadores da arquitetura MIPS, por exemplo. Dentro da linguagem Assembly ARM, por exemplo, temos ainda uma série de dialetos, que variam de acordo com a versão da arquitetura e recursos proprietários implementados por cada fabricante/designer de processadores que licenciam a arquitetura. O mesmo pode acontecer para a linguagem Assembly para processadores `RISC-V`, uma arquitetura RISC de código aberto que visa concorrer como uma alternativa à proprietária ARM.
 
+Abaixo, um exemplo de código em linguagem Assembly para a arquitetura x86:
+
+<div align="center">
+
+![Assembly-x86](/images/posts/2024-09-09-assembly-por-que-saber_image5.png)
+
+Figura 1: código Assembly para x86, do projeto de sistema operacional [Hexagonix](https://github.com/hexagonix). Fonte: autor, 2024.
+
+</div>
+
 ## Tudo bem, mas pra quê utilizamos Assembly?
 
 A linguagem Assembly tem uma série de utilidades, tanto em software histórico, quanto em  software moderno. Vamos dar uma olhada rápida em lugares onde podemos encontrar o uso da linguagem:
@@ -59,13 +69,13 @@ Para desenvolver um código Assemblt para JVM, precisamos de um montador que sup
 
 <div align="center">
 
-![Assembly-JVM-1](/images/posts/assembly-por-que-saber_image1.png)
-
-Figura 1: código Assembly para JVM. Fonte: autor, 2023.
-
-![Assembly-JVM-2](/images/posts/assembly-por-que-saber_image2.png)
+![Assembly-JVM-1](/images/posts/2024-09-09-assembly-por-que-saber_image1.png)
 
 Figura 2: código Assembly para JVM. Fonte: autor, 2023.
+
+![Assembly-JVM-2](/images/posts/2024-09-09-assembly-por-que-saber_image2.png)
+
+Figura 3: código Assembly para JVM. Fonte: autor, 2023.
 
 </div>
 
@@ -116,13 +126,13 @@ Este projeto de sistema oepracional se tornou o Hexagonix, um sistema operaciona
 
 <div align="center">
 
-<img src="https://github.com/hexagonix/Doc/blob/main/Img/Hexagonix2.png" width="500" height="400">
+![Hexagonix-1](/images/posts/2024-09-09-assembly-por-que-saber_image3.png)
 
-Figura 3: Inicialização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
+Figura 4: Inicialização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
 
-<img src="https://github.com/hexagonix/Doc/blob/main/Img/Hexagonix3.png" width="500" height="400">
+![Hexagonix-2](/images/posts/2024-09-09-assembly-por-que-saber_image4.png)
 
-Figura 4: Utilização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
+Figura 5: Utilização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
 
 Além disso, desenvolvi vários códigos para a disciplina de Organização de Computadores I da Universidade Federal de Minas Gerais, utilizando a linguagem Assembly para a arquitetura MIPS. Dentre eles, desenvolvi dois códigos, sendo um iterativo e um recursivo, que podem ser encontrados [aqui](https://github.com/felipenlunkes/MIPS-asm). Os dois códigos podem ser executados utilizando o *MIPS Assembler and Runtime Simulator* (MARS), disponível [aqui](https://courses.missouristate.edu/KenVollmar/MARS/).
 
