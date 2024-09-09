@@ -1579,6 +1579,7 @@ pre {
 }
 
 pre code {
+    display: block;
     padding: 0;
     font-size: inherit;
     color: inherit;
@@ -1586,7 +1587,6 @@ pre code {
     border-radius: 0;
     white-space: pre;
     overflow-x: auto;
-    display: block;
 }
 
 .pre-scrollable {
