@@ -60,9 +60,11 @@ Para desenvolver um código Assemblt para JVM, precisamos de um montador que sup
 <div align="center">
 
 ![Assembly-JVM-1](/images/posts/assembly-por-que-saber_image1.png)
+
 Figura 1: código Assembly para JVM. Fonte: autor, 2023.
 
 ![Assembly-JVM-2](/images/posts/assembly-por-que-saber_image2.png)
+
 Figura 2: código Assembly para JVM. Fonte: autor, 2023.
 
 </div>
@@ -115,9 +117,11 @@ Este projeto de sistema oepracional se tornou o Hexagonix, um sistema operaciona
 <div align="center">
 
 ![Hexagonix-1](https://github.com/hexagonix/Doc/blob/main/Img/Hexagonix2.png)
+
 Figura 3: Inicialização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
 
 ![Hexagonix-2](https://github.com/hexagonix/Doc/blob/main/Img/Hexagonix3.png)
+
 Figura 4: Utilização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
 
 Além disso, desenvolvi vários códigos para a disciplina de Organização de Computadores I da Universidade Federal de Minas Gerais, utilizando a linguagem Assembly para a arquitetura MIPS. Dentre eles, desenvolvi dois códigos, sendo um iterativo e um recursivo, que podem ser encontrados [aqui](https://github.com/felipenlunkes/MIPS-asm). Os dois códigos podem ser executados utilizando o *MIPS Assembler and Runtime Simulator* (MARS), disponível [aqui](https://courses.missouristate.edu/KenVollmar/MARS/).
