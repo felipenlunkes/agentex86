@@ -1582,10 +1582,11 @@ pre code {
     padding: 0;
     font-size: inherit;
     color: inherit;
-    white-space: pre;
     background-color: transparent;
     border-radius: 0;
+    white-space: pre;
     overflow-x: auto;
+    display: block;
 }
 
 .pre-scrollable {
