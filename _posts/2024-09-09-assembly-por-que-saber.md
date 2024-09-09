@@ -67,7 +67,7 @@ Figura 3: 86-DOS. Fonte: Retron, 2016.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Ms-dosdir.png">
 
-Figura 4: MS-DOS. Fonte: [Przemub](https://commons.wikimedia.org/wiki/User:Przemub), 2023.
+Figura 4: MS-DOS 6. Fonte: [Przemub](https://commons.wikimedia.org/wiki/User:Przemub), 2023.
 
 </div>
 
