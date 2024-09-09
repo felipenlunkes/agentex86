@@ -1584,7 +1584,8 @@ pre code {
     color: inherit;
     white-space: pre-wrap;
     background-color: transparent;
-    border-radius: 0
+    border-radius: 0;
+    overflow-x: auto;
 }
 
 .pre-scrollable {
