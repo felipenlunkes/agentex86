@@ -4,7 +4,7 @@ date: 2024-09-09
 author: Felipe Lunkes (Lunx)
 tags: ["Assembly", "Dev", "OSDev", "Software"]
 revised: Felipe Lunkes (Lunx)
-update: 2024-09-09 10:00:00
+update: 2024-09-09 10:40:00
 ---
 
 <div align="justify">
@@ -183,7 +183,7 @@ _start:
 
 Isso seria equivalente às funções printf() e exit() em C, que utilizam implementações que realizam o que foi exibido assim e estão disponíveis na biblioteca padrão C (libc).
 
-Você pode obter uma lista das principais chamadas de sistema suportadas pelo Linux [aqui](https://man7.org/linux/man-pages/man2/syscalls.2.html).
+Você pode obter uma lista das principais chamadas de sistema suportadas pelo Linux, bem como mais informações sobre para quê são usadas as chamadas, [aqui](https://man7.org/linux/man-pages/man2/syscalls.2.html).
 
 ### No quê conhecer Assembly me ajudou, mesmo não trabalhando com a linguagem?
 
