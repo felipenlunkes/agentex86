@@ -49,7 +49,23 @@ Na história, diversos sistemas operacionais foram parcialmente ou totalmente im
 
 * **UNIX**: o mais famoso e influente sistema operacional da história foi totalmente implementado em Assembly para minicomputadores da série PDP (PDP-7 e PDP-11) em suas primeiras versões. Tanto o kernel quando os utilitários e shell foram escritos em Assembly. Mais tarde, seus criadores desenvolveram a linguagem C e reescreveram o sistema em C, embora o uso da linguagem Assembly tenha sido mantido em drivers e no código de inicialização do sistema. Atualmente, as primeiras versões do UNIX foram liberados sob licença livre. Assim, você pode analisar o código da primeira versão [aqui](https://github.com/felipenlunkes/unix-history-repo). No mesmo repositório, em branchs diferentes, você pode acompanhar todo o histórico da portabilidade do UNIX do Assembly para o C;
 
+<div align="center">
+
+<img src="https://en.wikipedia.org/wiki/UNIX_System_V#/media/File:SVR1-PDP11.png">
+
+Figura 2: UNIX System V para PDP-11 sendo executado no simulador SIMH. Fonte: Missileboi, 2022.
+
+</div>
+
 * **86-DOS e seus descendentes, MS-DOS e PC DOS**: o [86-DOS](https://en.wikipedia.org/wiki/86-DOS), sistema operacional desenvolvido pela Seattle Computer Products em 1980, foi desenvolvido inteiramente em Assembly x86 para o processador Intel 8086. Você pode obter e executar o 86-DOS [aqui](https://archive.org/details/86-dos-version-0.1-c-serial-11-original-disk). Ele foi comprado pela Microsoft para se tornar a base do PC DOS, após o estabelecimento de um contrato com a IBM. Mais tarde, usou a base de código para lançar o MS-DOS, sistema operacional que se manteve escrito inteiramente em Assembly até a sua última versão, 8.0, que integrava o Windows ME (Millenium Edition), lançado em 2000. A Microsoft recentemente liberou as versões 1.25, 2.0 e 4.0 do MS-DOS como software livre. Isso quer dizer que você pode consultar, estudar e criar derivados do MS-DOS utilizando os códigos em Assembly disponibilizados. Você pode acessar o repositório oficial [aqui](https://github.com/microsoft/MS-DOS);
+
+<div align="center">
+
+<img src="https://en.wikipedia.org/wiki/86-DOS#/media/File:86-DOS_running_assembler_and_HEX2BIN_(screenshot).png">
+
+Figura 3: 86-DOS. Fonte: Retron, 2016.
+
+</div>
 
 * **MenuetOS**: agora um exemplo de sistema operacional moderno escrito em Assembly x86 para a arquitetura **x86** e **x86_64**. O [MenuetOS](https://www.menuetos.net/) é totalmente escrito em Assembly x86 (incluindo kernel, drivers de dispositivo, utilitários e aplicativos). Com boot em menos de 3 segundos, o MenuetOS impressiona pela sua velocidade de inicialização e abertura de utilitários e aplicativos. Ele inclui uma série de emuladores, além de ports e de jogos populares, como Doom (1993). Além de tudo isso, todo o sistema cabe em uma imgagem de disquete (1.44 MB), possuindo uma IDE, interface gráfica, suporte a USB e webcams, multitarefa preemptiva e até mesmo um navegador de internet, mostrando o potencial e a utilidade da linguagem Assembly ainda em 2024;
 
@@ -81,11 +97,11 @@ Para desenvolver um código Assembly para JVM, precisamos de um montador que sup
 
 ![Assembly-JVM-1](/images/posts/2024-09-09-assembly-por-que-saber_image1.png)
 
-Figura 2: código Assembly para JVM. Fonte: autor, 2023.
+Figura 4: código Assembly para JVM. Fonte: autor, 2023.
 
 ![Assembly-JVM-2](/images/posts/2024-09-09-assembly-por-que-saber_image2.png)
 
-Figura 3: código Assembly para JVM. Fonte: autor, 2023.
+Figura 5: código Assembly para JVM. Fonte: autor, 2023.
 
 </div>
 
@@ -140,11 +156,11 @@ Este projeto de sistema oepracional se tornou o Hexagonix, um sistema operaciona
 
 ![Hexagonix-1](/images/posts/2024-09-09-assembly-por-que-saber_image3.png)
 
-Figura 4: Inicialização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
+Figura 6: Inicialização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
 
 ![Hexagonix-2](/images/posts/2024-09-09-assembly-por-que-saber_image4.png)
 
-Figura 5: Utilização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
+Figura 7: Utilização do Hexagonix em máquina virtual (qemu). Fonte: autor, 2023.
 
 </div>
 
