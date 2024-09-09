@@ -4,7 +4,7 @@ date: 2024-09-09
 author: Felipe Lunkes (Lunx)
 tags: ["Assembly", "Dev", "OSDev", "Software"]
 revised: Felipe Lunkes (Lunx)
-update: 2024-09-09 02:06:00
+update: 2024-09-09 02:12:00
 ---
 
 <div align="justify">
@@ -65,7 +65,7 @@ Sistemas de tempo real (*Real-time systems*) exigem uma baixíssima latência en
 
 A *Java Virtual Machine*, ou JVM, nada mais é que a implementação de uma arquitetura de processador, com suas próprias instruções e, desta forma, de uma linguagem Assembly. Embora não implemente uma arquitetura física, podemos escrever código em Assembly para a JVM, que é então montado como um `bytecode Java`, a linguagem binária da arquitetura. Todo código Java é compilado para bytecode Java, a linguagem nativa da JVM, cujas instruções são então traduzidas para o sistema operacional hosdepeiro. 
 
-Para desenvolver um código Assemblt para JVM, precisamos de um montador que suporte a arquitetura (conjunto de instruções). Um exemplo é o [flat assembler](https://flatassembler.net/) g (fasm). Abaixo, exemplos de códigos Assembly JVM gerados por mim utilizando o [fasm g](https://flatassembler.net/docs.php?article=fasmg):
+Para desenvolver um código Assemblt para JVM, precisamos de um montador que suporte a arquitetura (conjunto de instruções). Um exemplo é o [flat assembler](https://flatassembler.net/) g (fasm). Abaixo, exemplos de códigos Assembly JVM gerados por mim utilizando o [fasm g](https://flatassembler.net/docs.php?article=fasmg), executando o método toString():
 
 <div align="center">
 
