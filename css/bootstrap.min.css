@@ -1571,8 +1571,8 @@ pre {
     font-size: 13px;
     line-height: 1.42857143;
     color: #f7f7f7;
-    word-break: break-all;
-    word-wrap: break-word;
+    white-space: pre;
+    overflow-x: auto;
     background-color: #2b2525;
     border: 1px solid #ccc;
     border-radius: 4px
