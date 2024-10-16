@@ -1,14 +1,12 @@
                                     CRÉDITOS/CREDITS
 
-Este arquivo lista todas as pessoas que contribuíram para a Agente x86. Está ordenado por
-nome e está formatado da seguinte forma: nome (N), e-mail (E), endereço web (w) e
+Este arquivo lista todas as pessoas que contribuíram para este repositório/projeto. Está ordenado por nome e está formatado da seguinte forma: nome (N), e-mail (E), endereço web (w) e
 descrição (D).
 
-This file lists all people who have contributed to Agente x86. It is sorted by 
-name and it is formated as follows: name (N), email (E), web-address (w) and 
+This file lists everyone who has contributed to this repository/project. It is sorted by name and it is formated as follows: name (N), email (E), web-address (w) and 
 description (D).
 
 N: Felipe Miguel Nery Lunkes
 E: felipenldev@gmail.com
-W: https://github.com/felipenlunkes
-D: Assembly and Unix lover; Backend developer working with Java; x86 Assembly, Java, C and Python;
+W: https://lunx.me
+D: Backend developer; x86 Assembly, Java, Rust, C and Python; Assembly and Unix lover;
